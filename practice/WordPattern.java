@@ -7,8 +7,6 @@ public class WordPattern {
 		String a[]=str.split(" ");
 		String temp=a[0];int counter=0;
 		
-			
-		
 		if(a.length==1||pattern.length()==1)
 		{
 			if(pattern.length()==1&&a.length==1)

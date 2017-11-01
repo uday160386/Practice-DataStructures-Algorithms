@@ -20,6 +20,7 @@ public class MaxConsectiveOnes {
 					if(temp<counter)
 					{
 						temp=counter;
+						System.out.println(temp);
 					}
 				}
 				else
