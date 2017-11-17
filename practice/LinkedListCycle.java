@@ -11,6 +11,7 @@ public class LinkedListCycle {
         Set s=new HashSet();
         while(head!=null)
         {
+        	if(head.val>head.next.val)
         	if(s.contains(head))
 				return true;
         	else
